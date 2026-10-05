@@ -18,9 +18,9 @@ function Home() {
     <main className="welcome-page" data-testid="page-welcome">
       <div className="welcome-shell">
         <header className="flex h-[76px] items-center justify-between">
-          <div className="flex items-center gap-3" aria-label="Hello World">
+          <div className="flex items-center gap-3" aria-label="My First Hackathon Project">
             <span className="brand-mark" aria-hidden="true">h.</span>
-            <span className="text-[13px] font-bold tracking-[-0.03em] text-foreground">hello, world</span>
+            <span className="text-[13px] font-bold tracking-[-0.03em] text-foreground">My First Hackathon Project</span>
           </div>
           <span className="font-mono text-[10px] tracking-[0.12em] text-muted-foreground">A FRESH START</span>
         </header>
@@ -29,7 +29,7 @@ function Home() {
           <div className="hero-copy">
             <div className="eyebrow">A little place to begin</div>
             <h1 className="hero-title" id="welcome-title">
-              Hello,<br /><em>world.</em>
+              My First<br /><em>Hackathon Project</em>
             </h1>
             <p className="hero-description" data-testid="text-welcome-message">
               Every good thing starts somewhere. We’re glad this one starts with you.
